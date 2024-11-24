@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrayonCloudSale.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54cf9f0344ae408efaa7ebae49f3fe5d00dfebe0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrayonCloudSale.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrayonCloudSale.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

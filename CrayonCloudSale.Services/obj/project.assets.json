@@ -3157,11 +3157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Services\\CrayonCloudSale.Services.csproj",
+      "projectUniqueName": "C:\\crayon\\cloud-sale\\CrayonCloudSale.Services\\CrayonCloudSale.Services.csproj",
       "projectName": "CrayonCloudSale.Services",
-      "projectPath": "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Services\\CrayonCloudSale.Services.csproj",
+      "projectPath": "C:\\crayon\\cloud-sale\\CrayonCloudSale.Services\\CrayonCloudSale.Services.csproj",
       "packagesPath": "C:\\Users\\sema2402\\.nuget\\packages\\",
-      "outputPath": "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Services\\obj\\",
+      "outputPath": "C:\\crayon\\cloud-sale\\CrayonCloudSale.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sema2402\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3178,8 +3178,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Infrastructure\\CrayonCloudSale.Infrastructure.csproj": {
-              "projectPath": "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Infrastructure\\CrayonCloudSale.Infrastructure.csproj"
+            "C:\\crayon\\cloud-sale\\CrayonCloudSale.Infrastructure\\CrayonCloudSale.Infrastructure.csproj": {
+              "projectPath": "C:\\crayon\\cloud-sale\\CrayonCloudSale.Infrastructure\\CrayonCloudSale.Infrastructure.csproj"
             }
           }
         }

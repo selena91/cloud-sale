@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kw3YT7OyhaQ59AjttjI9FuvuC3ZinOg9K5BmL5/OZo5NWad54QBYwwMzlbyzVDdDsYkKfdVELEmvHHqYRmIsxQ==",
+  "dgSpecHash": "AARGV0QrEtPdVljUcg/W5if/jNijbKaoaNPH/LrGucQjaiwDjbRCY5b8IeRk4gNJQzjVNEzO6LTAd8yA4jKB+g==",
   "success": true,
-  "projectFilePath": "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Core\\CrayonCloudSale.Core.csproj",
+  "projectFilePath": "C:\\crayon\\cloud-sale\\CrayonCloudSale.Core\\CrayonCloudSale.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sema2402\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\sema2402\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",

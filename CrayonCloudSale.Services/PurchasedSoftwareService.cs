@@ -10,7 +10,7 @@ public class PurchasedSoftwareService : IPurchasedSoftwareService
 
     public PurchasedSoftwareService(IUnitOfWork unitOfWork) { _unitOfWork = unitOfWork; }
 
-    public async Task CancelPurchase(long id)
+    public async Task<PurchasedSoftware> CancelPurchase(long id)
     {
         var purchase = await _unitOfWork.PurchasedSoftwareRepository.GetByIdAsync(id);
         if (purchase != null)
@@ -18,6 +18,8 @@ public class PurchasedSoftwareService : IPurchasedSoftwareService
             purchase.State = State.Canceled;
             purchase.ChangeDate = DateTime.UtcNow;
             _unitOfWork.PurchasedSoftwareRepository.Update(purchase);
+
+            return purchase;
         }
         else
         {
@@ -25,7 +27,7 @@ public class PurchasedSoftwareService : IPurchasedSoftwareService
         }
     }
 
-    public async Task ChangeQuantity(long id, int quantity)
+    public async Task<PurchasedSoftware> ChangeQuantity(long id, int quantity)
     {
         var purchase = await _unitOfWork.PurchasedSoftwareRepository.GetByIdAsync(id);
         if (purchase != null)
@@ -33,6 +35,7 @@ public class PurchasedSoftwareService : IPurchasedSoftwareService
             purchase.Quantity = quantity;
             purchase.ChangeDate = DateTime.UtcNow;
             _unitOfWork.PurchasedSoftwareRepository.Update(purchase);
+            return purchase;
         }
         else
         {
@@ -40,7 +43,7 @@ public class PurchasedSoftwareService : IPurchasedSoftwareService
         }
     }
 
-    public async Task ExtendExpiryDate(long id, DateTime validTo)
+    public async Task<PurchasedSoftware> ExtendExpiryDate(long id, DateTime validTo)
     {
         var purchase = await _unitOfWork.PurchasedSoftwareRepository.GetByIdAsync(id);
 
@@ -54,6 +57,7 @@ public class PurchasedSoftwareService : IPurchasedSoftwareService
             purchase.ValidTo = validTo;
             purchase.ChangeDate = DateTime.UtcNow;
             _unitOfWork.PurchasedSoftwareRepository.Update(purchase);
+            return purchase;
         }
         else
         {

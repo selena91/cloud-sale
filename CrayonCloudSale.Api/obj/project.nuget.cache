@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YEWlrfiDbNwaONxvgd+7cX82Y5vppDkW4A7ZRv/4NOjUCF4cS3sBnu378ZLerD/Il2Ee7DDWauAtLBZD4Hri6Q==",
+  "dgSpecHash": "qVPA22jVzgU54FfATHkNaoQbgzS4xvuoaL2WNUikReDiqDjwbGuLS5K8JuJh8BJ5Wc1TpZ4FzdVbkNosn99tqA==",
   "success": true,
-  "projectFilePath": "C:\\crayon\\CrayonCloudSale\\CrayonCloudSale.Api\\CrayonCloudSale.Api.csproj",
+  "projectFilePath": "C:\\crayon\\cloud-sale\\CrayonCloudSale.Api\\CrayonCloudSale.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sema2402\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sema2402\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

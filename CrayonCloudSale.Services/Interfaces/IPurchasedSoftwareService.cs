@@ -1,8 +1,10 @@
-﻿namespace CrayonCloudSale.Services.Interfaces;
+﻿using CrayonCloudSale.Infrastructure.Data.Models;
+
+namespace CrayonCloudSale.Services.Interfaces;
 
 public interface IPurchasedSoftwareService
 {
-    Task CancelPurchase(long id);
-    Task ChangeQuantity(long id, int quantity);
-    Task ExtendExpiryDate(long id, DateTime validTo);
+    Task<PurchasedSoftware> CancelPurchase(long id);
+    Task<PurchasedSoftware> ChangeQuantity(long id, int quantity);
+    Task<PurchasedSoftware> ExtendExpiryDate(long id, DateTime validTo);
 }
